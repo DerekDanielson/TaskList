@@ -10,13 +10,13 @@ const taskInput = document.querySelector('#task');
 loadEventListeners();
 
 function loadEventListeners(){
-    //Add task event
+    // Add task event
     form.addEventListener('submit', addTask);
-    //Remove task event
+    // Remove task event
     taskList.addEventListener('click', removeTask);
-    //Clear task list
+    // Clear task list
     clearBtn.addEventListener('click', clearTasks);
-    //Filter tasks
+    // Filter tasks
     filter.addEventListener('keyup', filterTasks);
 }
 
